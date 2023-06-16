@@ -11,6 +11,32 @@ const cardImages = [
 	{ src: '/img/scroll-1.png', matched: false },
 	{ src: '/img/shield-1.png', matched: false },
 	{ src: '/img/sword-1.png', matched: false },
+	{ src: '/img/ladyBug.png', matched: false },
+	{ src: '/img/psyduck.png', matched: false },
+	{ src: '/img/jigglypuff.png', matched: false },
+	{ src: '/img/cuteCat.png', matched: false },
+	{ src: '/img/marieCat.png', matched: false },
+	{ src: '/img/unicorn.png', matched: false },
+	{ src: '/img/groot.png', matched: false },
+	{ src: '/img/cupcake.png', matched: false },
+	{ src: '/img/gengar.png', matched: false },
+	{ src: '/img/squirtle.png', matched: false },
+	{ src: '/img/togepi.png', matched: false },
+	{ src: '/img/charmander.png', matched: false },
+	{ src: '/img/eevee.png', matched: false },
+	{ src: '/img/Pikachu.png', matched: false },
+	{ src: '/img/turtle.png', matched: false },
+	{ src: '/img/crown.png', matched: false },
+	{ src: '/img/unicornGhost.png', matched: false },
+	{ src: '/img/ghost.png', matched: false },
+	{ src: '/img/squirtle1.png', matched: false },
+	{ src: '/img/winnie.png', matched: false },
+	{ src: '/img/unicornFish.png', matched: false },
+	{ src: '/img/lightbulb.png', matched: false },
+	{ src: '/img/pineapple1.png', matched: false },
+	{ src: '/img/pineapple2.png', matched: false },
+	{ src: '/img/cherry.png', matched: false },
+	{ src: '/img/raspberry.png', matched: false },
 ]
 
 function App() {
@@ -67,7 +93,7 @@ function App() {
 	}, [])
 	return (
 		<div className='App'>
-			{endGame.length === 12 && <Confetti className='confetti' />}
+			{endGame.length === 64 && <Confetti className='confetti' />}
 
 			<h1>Magic Match</h1>
 			<button onClick={shuffleCards}>New Game</button>
