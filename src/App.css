@@ -27,5 +27,6 @@ button:hover {
 .confetti {
 	width: 90%;
 	max-width: 860px;
+	height: 90vh;
 	margin: 40px auto;
 }
